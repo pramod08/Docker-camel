@@ -4,7 +4,8 @@ FROM java
 # maintainer details
 MAINTAINER Bizruntime
 
-Run apt-get update && apt-get install -y git
+Run apt-get update && apt-get install -y git &&  apt-get install maven
+
 
 # attach volumes
 VOLUME /volume/git
