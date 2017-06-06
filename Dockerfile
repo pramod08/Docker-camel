@@ -1,5 +1,5 @@
 # pull base image.
-FROM dockerfile/oracle-java8
+FROM java
 
 # maintainer details
 MAINTAINER Bizruntime
